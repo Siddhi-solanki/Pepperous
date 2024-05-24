@@ -1,0 +1,64 @@
+.navbar {
+  height: 100px;
+  color: #A08C57;
+  background-color:white ;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.nav-logo {
+  height: 100px;
+  width: 200px;
+}
+
+.logo {
+  background-image: url(pep.png);
+  background-size: cover;
+  height: 100px;
+  width: 200px;
+}
+
+.home {
+  color : #A08C57;
+  background-color:white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 50px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color : #A08C57;    
+}
+.contact {
+    background-image: url(contact.png);
+    background-size: cover;
+    height: 400px;
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.link {
+  color : green;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+}
+
+@media only screen and (max-width: 500px) {
+  .contact {
+    margin-top: 80px;
+    width: 320px;
+    height: 180px;
+  }
+}
+
+
+
